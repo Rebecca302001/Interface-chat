@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffffff;
+    color: #000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+button{
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: none;
+}
+.bnt1 {
+    background-color: black;
+    color: white;
+}
+.bnt2 {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+main {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.texte {
+    margin: 20px auto;
+    width: 60%;
+    display: grid;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+.texte input {
+    flex: 1;
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+
+}
+.boutons {
+    display: flex;
+    gap: 10px; 
+    margin-top: 10px;
+}
+
+.rech-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: auto;
+}
+
+.division {
+    margin-top: 20px;
+}
+
+.division button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 14px;
+}
+.division button:hover {
+    background-color: #e0e0e0;
+}
+.bt1 i {
+    color: #fb954c;
+}
+.bt2 i {
+    color: #f3b016;
+}
+.bt3 i {
+    color: #07beec;
+}
+.bt4 i {
+    color: #07beec;
+}
+
+/* Pied de page */
+footer {
+    margin-top: 50px;
+    font-size: 12px;
+    color: #555;
+}
+
+footer a {
+    color: rgb(22, 20, 19);
+    text-decoration: none;
+}
+footer p{
+    max-width: 600px; 
+    text-align: center; 
+    margin: auto; 
+    line-height: 1.5; 
+}
+
